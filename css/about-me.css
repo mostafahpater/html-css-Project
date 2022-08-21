@@ -1,0 +1,45 @@
+section .container h1{
+    text-align: center;
+    font-size: 45px;
+    font-weight: 900;
+    color: #846ee6;
+    opacity: .7;
+    margin: 20px 0;
+}
+section .container .information{
+    display: flex;
+}
+section .container .information p{
+    letter-spacing: 1px;
+    font-size: 18px;
+    width: 50%;
+    word-spacing: 1px;
+     font-weight: 300;
+}
+
+
+section .container .information div h2{
+    font-weight: 800;
+    color: #846ee6;
+    opacity: .7;
+    margin-bottom: 20px;
+}
+section .container .information .num-text{
+    border: #846ee6 1px solid;
+    width: 200px;
+    height: 200px;
+    padding-left: 10px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+section .container .information .num-text .large-num{
+    font-size: 40px;
+    font-weight: 900;
+    color: #846ee6;
+    padding-top: 10px;
+
+}
+section .container .information .num-text p:last-child{
+    font-size: 20px;
+    padding-left: 20px;
+}
